@@ -24,3 +24,6 @@ hs_err_pid*
 
 # Node projects
 */node_modules/
+
+#Docusaurus
+*/.docusaurus/
