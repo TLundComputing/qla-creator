@@ -1,0 +1,16 @@
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<?import java.net.URL?>
+<VBox id="background" fx:controller="io.github.tlundcomputing.MainScreenController"
+      xmlns:fx="http://javafx.com/fxml" alignment="TOP_CENTER" spacing="10">
+    <Label id="title" text="Question Level Analysis Generator"/>
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Create QLA" onAction="#createQLA"/>
+        <Button text="View Previous QLA" onAction="#viewPrevious"/>
+    </HBox>
+    <stylesheets>
+        <URL value="@mainScreen.css"/>
+    </stylesheets>
+</VBox>

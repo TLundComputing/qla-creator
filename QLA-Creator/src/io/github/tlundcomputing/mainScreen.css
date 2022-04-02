@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
+#title {
+    -fx-font-size: 32pt;
+    -fx-text-fill: black;
+    -fx-font-family: 'Ubuntu', sans-serif;
+}
+
+#background {
+    //TODO: Add style to the background
+}
+
+.button {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 12pt;
+}
